@@ -1,0 +1,10 @@
+udp_client_1  无限发
+udp_client_2  发 终止条件
+socket_client_2  有发有收交互
+udp_server_1 无限收
+udp_server_2 收三次有检测，终止
+udp_server_3. 收两次 头字符检测 无限循环
+udp_server_4 收一次回一次，接受的消息会滞留
+udp_server_5 有发有收交互
+udp_server_6 收两次 头字符检测 无限循环 
+udp_server_7 收两次 头字符检测 无限循环 基于8优化
